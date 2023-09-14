@@ -64,10 +64,3 @@ to create and updated requirements.txt  file:
 run in terminal when all packages are installed:
 pip freeze > requirements.txt 
 
-*****************************
-Git
-*****************************
-repository: 
-username: rotemagmon1
-token for password: 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
-* The token will be expired after a period of time (60 days), and it will be necessary to renew it through git
