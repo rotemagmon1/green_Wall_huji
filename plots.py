@@ -255,4 +255,5 @@ def combine_all_daily_plots(df):
     # Add the soil sensors data in table to row 3
     fig.add_trace(soil_table_data(df), row=4, col=1)
 
-    fig.show()
+    #fig.show()
+    return fig;
