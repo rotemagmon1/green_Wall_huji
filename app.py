@@ -5,7 +5,7 @@ from pre_process import *
 # for test in computer do not have connection to the data add test=True in create_df parameters
 df = create_df()
 fig = combine_all_daily_plots(df)
-fig.update_layout(autosize=False, height=768, width=1024)
+fig.update_layout(autosize=False, height=1080, width=1920)
 
 app = Dash(__name__)
 server=app.server
